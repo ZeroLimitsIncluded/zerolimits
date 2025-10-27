@@ -1,113 +1,152 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>ZERO Limits - League Config Store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<div style="font-family: 'Inter', sans-serif; background: #0D0D0F; color: #E6E6E6; padding: 40px; max-width: 900px; margin: auto; line-height: 1.5;">
-  <style>
+<style>
 html, body {
   margin: 0;
   padding: 0;
   background: #0D0D0F;
+  font-family: 'Inter', sans-serif;
+  color: #E6E6E6;
 }
 
-    .zs-btn {
-      padding: 12px 22px;
-      border: 2px solid #C4162B;
-      border-radius: 6px;
-      font-weight: 600;
-      text-decoration: none;
-      color: #C4162B;
-      display: inline-block;
-      margin: 6px 6px 0 0;
-      transition: 0.25s;
-    }
-    .zs-btn:hover {
-      background: #C4162B;
-      color: #0D0D0F;
-    }
-    .product-card {
-      background: #121215;
-      border-radius: 8px;
-      padding: 18px;
-      margin: 16px 0;
-      border: 1px solid #1F1F21;
-    }
-    h2, h3 {
-      font-family: 'Barlow Condensed', sans-serif;
-      margin-bottom: 10px;
-      color: #FFFFFF;
-    }
-    .divider {
-      width: 80px;
-      height: 3px;
-      background: #C4162B;
-      margin: 8px 0 22px 0;
-    }
-    .faq-q {
-      font-weight: 600;
-      margin: 12px 0 4px;
-      color: #FFFFFF;
-    }
-    .faq-a {
-      color: #BFBFBF;
-      margin: 0 0 6px;
-    }
-  </style>
+/* Container */
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.zs-btn {
+  padding: 12px 22px;
+  border: 2px solid #C4162B;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #C4162B;
+  display: inline-block;
+  margin: 6px 6px 0 0;
+  transition: 0.25s;
+}
+.zs-btn:hover {
+  background: #C4162B;
+  color: #0D0D0F;
+}
+
+/* Product Cards */
+.product-card {
+  background: #121215;
+  border-radius: 8px;
+  padding: 18px;
+  margin: 20px 0;
+  border: 1px solid #1F1F21;
+  display: flex;
+  align-items:center;
+  gap:15px;
+}
+
+/* Product Icons */
+.product-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+}
+
+/* Titles */
+h2, h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background: #C4162B;
+  margin: 8px 0 22px 0;
+}
+
+.faq-q {
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #FFFFFF;
+}
+
+.faq-a {
+  color: #BFBFBF;
+  margin: 0 0 6px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
 
   <h2 style="font-size: 42px;">Optimize Your League Experience</h2>
-  <p style="color: #BFBFBF;">EVADE SETTINGS & ORBWALKER CONFIGS designed to keep the game easier.</p>
-  <p style="padding-top: 10px; color:#8C8C8C;">✅ LOW BAN RATES , BEST CONFIGS ON THE MARKET</p>
+  <p style="color: #BFBFBF;">EVADE & ORBWALKER CONFIGS for smarter reaction mechanics.</p>
+  <p style="padding-top: 10px; color:#8C8C8C;">✅ LOW BAN RATES · PRO SETTINGS</p>
 
   <h3 style="margin-top:50px;">Why ZERO Limits?</h3>
   <div class="divider"></div>
-  <p><strong>Performance Boost</strong><br><span style="color:#BFBFBF;">Cleaner UI & better reaction time</span></p>
-  <p><strong>Lower Banrates than other configs</strong></p>
+  <p><strong>Performance Boost</strong><br><span style="color:#BFBFBF;">Cleaner UI & humanized movement</span></p>
+  <p><strong>Lower Banrates</strong></p>
   <p><strong>Easy Install</strong></p>
 
-  <h3 id="products" style="margin-top:50px;">PERFECT SETTINGS FOR HIGH RATED GAMES</h3>
+  <!-- Products -->
+  <h3 id="products" style="margin-top:50px;">BEST SETTINGS ON THE MARKET</h3>
   <div class="divider"></div>
 
   <div class="product-card">
-    <strong>Evade Config — 12€</strong>
-    <p style="color:#BFBFBF;">Cleaner and Humanized Sidesteps, Perfect for Highrated games, low ban rate.</p>
-    <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Contact via Discord</a>
+    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/KatarinaSquare.png" alt="Katarina">
+    <div>
+      <strong>Evade Config — 12€</strong>
+      <p style="color:#BFBFBF;">Humanized dodging · Cleaner sidesteps</p>
+      <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Buy via Discord</a>
+    </div>
   </div>
 
   <div class="product-card">
-    <strong>Orbwalker Pack — 12€</strong>
-    <p style="color:#BFBFBF;">Better Target Prioritys, Perfect kiting & CS, best for ADCs.</p>
-    <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Contact via Discord</a>
+    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4d/EzrealSquare.png" alt="Ezreal">
+    <div>
+      <strong>Orbwalker Pack — 12€</strong>
+      <p style="color:#BFBFBF;">Perfect kiting · Best target priority</p>
+      <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Buy via Discord</a>
+    </div>
   </div>
 
   <div class="product-card">
-    <strong>Full Bundle — 18€</strong>
-    <p style="color:#BFBFBF;">Includes all configs</p>
-    <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Contact via Discord</a>
+    <img src="https://i.imgur.com/WqgfnvU.png" alt="Bundle">
+    <div>
+      <strong>Full Bundle — 18€</strong>
+      <p style="color:#BFBFBF;">Evade + Orbwalker Included</p>
+      <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Buy via Discord</a>
+    </div>
   </div>
 
   <h3 style="margin-top:50px;">FAQ</h3>
   <div class="divider"></div>
   <p class="faq-q">How do I install the Configs?</p>
-  <p class="faq-a">Step by Step guide included in purchase.</p>
-  <p class="faq-q">What payments do you accept?</p>
-  <p class="faq-a">PayPal , Crypto.</p>
-  <p class="faq-q">Refund policy?</p>
-  <p class="faq-a">All Purchases are Final.</p>
+  <p class="faq-a">Step by step guide included.</p>
+  <p class="faq-q">Payments?</p>
+  <p class="faq-a">PayPal · Crypto</p>
+  <p class="faq-q">Refunds?</p>
+  <p class="faq-a">All sales are final.</p>
 
   <h3 id="contact" style="margin-top:50px;">Need Help?</h3>
   <div class="divider"></div>
-  <p style="color:#BFBFBF;">Our support team responds within 24 hours.</p>
   <a class="zs-btn" href="https://discord.gg/BfKGGNuaK3" target="_blank">Message Support</a>
 
-  <p style="margin-top:50px; color:#4D4D50; font-size:12px;">
-    © ZERO Limits — UI Enhancements & Performance Packs<br>
+  <p style="margin-top:40px; color:#4D4D50; font-size:12px;">
+    © ZERO Limits — UI Enhancements & Gameplay Tools<br>
     Not affiliated with Riot Games.
   </p>
+
 </div>
 </body>
 </html>
